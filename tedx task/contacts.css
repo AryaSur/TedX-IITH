@@ -1,0 +1,18 @@
+#contactsection h1{
+    color: red;
+}
+
+#contactsection a{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+#contactsection .column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+#contactsection .column a {
+    margin-right: 20px;
+  }

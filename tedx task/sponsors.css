@@ -1,0 +1,57 @@
+#sponsorsection {
+  background: linear-gradient(to bottom, black, gray);
+}
+
+#sponsorsection body{
+  background-image: url(background1.jpeg);
+    background-size: cover;
+}
+
+#sponsorsection h1{
+    color: red;
+    text-align: center;
+  }
+
+#sponsorsection h2{
+    color: burlywood;
+    text-align: center;
+
+}  
+
+#sponsorsection p{
+    color: white;
+}
+
+#spnsorsection img{
+    height: 200px;
+    width: 200px;
+}
+
+#sponsorsection .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+#sponsorsection .image-container img {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+  }
+  
+#sponsorsection .image-container p {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+#sponsorsection  .transbox {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) to control the transparency */
+    padding: 10px;
+    display: inline-block; /* Ensures that the transbox container adjusts to the size of the content */
+  }
+  
+#sponsorsection  .transbox img {
+    width: 200px; /* Adjust the desired width to match the logo */
+    height: 200px; /* This property maintains the aspect ratio */
+  }

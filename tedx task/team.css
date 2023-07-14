@@ -1,0 +1,44 @@
+#teamsection {
+  background: linear-gradient(to bottom, black, gray);
+}
+
+#teamsection h1{
+    color: red;
+    text-align: center;
+  }
+
+#teamsection h2{
+    color: red;
+    text-align: center;
+
+}  
+
+#teamsection p{
+    color: white;
+  }
+
+
+#teamsection img{
+    height: 200px;
+    width: 200px;
+}
+
+#teamsection .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  
+#teamsection .image-container img {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+  }
+  
+#teamsection .image-container p {
+    text-align: center;
+    margin-top: 5px;
+  }
